@@ -1,18 +1,19 @@
+
+/* make all rows 10vh */
 tr {
   height: 10vh;
-
 }
 
-
+/* make inputs take up the entire col space */
 input {
   display: inline-block;
   padding:0;
   margin: 0;
   height: 10vh;
   width: 100%;
-
 }
 
+/* style button to take up entire col space and give it a new color */
 .submit-btn{
   display: inline-block;
   padding:0;
@@ -22,26 +23,27 @@ input {
   background-color: bisque;
 }
 
+/* change button color on click */
 .submit-btn:focus{
   background-color: #06aed5;
-  transition: all 0.9s ease-in-out;
+  transition: all 1.3s ease-in-out;
 }
 
-
+/* make table input background see through  to pick up the color of the col it is in and remove borders and outlines*/
 .table-input {
   border: none;
   background-color: rgba(255, 255, 255, 0);
   outline: none;
 }
 
-
+/* set font size and font */
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1;
 }
 
-
+/* header styling */
 .jumbotron {
   text-align: center;
   background-color: transparent;
@@ -50,15 +52,3 @@ body {
   border-bottom: 10px solid black;
 }
 
-.saveBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
-}
-
-.submit-btn:focus {
-  font-size: 20px;
-  
-}
